@@ -1,0 +1,107 @@
+p{color: purple;
+	font-size: 15px
+}
+.genericname{
+	color: green;
+	font-size :20px;
+}
+.blahblahblah{
+	color: red;
+	font-size: 15px;
+	margin:15px;
+}
+#background{
+	background-color: yellow;
+}
+#button{
+	width: 75px;
+	height: 25px;
+	color: yellow;
+	background-color: blue;
+	border-radius: 15px;
+}
+header {
+	height:30px;
+	width:150%;
+	border:ridge;
+	background-color:70B5CE;
+	margin-bottom:15px;
+}
+footer {
+	height:30px;
+	width:150%;
+	border:ridge;
+	background-color:70B5CE
+}
+.wrap-trivia {
+	height:75px;
+	width:200px;
+	padding:50px;
+	border:solid 5px red;
+}
+.wrap-list{
+	height:120px;
+	width:200px;
+	border:solid 5px green;
+}
+.wrap-text{
+	font-size:20px;
+	color:purple;
+}
+#One{
+	height:150px;
+	width:150px;
+	background-color:#49e3f4;
+	display:inline-block;
+	position:absolute;
+	z-index:1;
+}
+#Two{
+	height:150px;
+	width:150px;
+	background-color:#4cefae;
+	display:inline-block;
+	position:fixed;
+	left:25%;
+	z-index:2;
+}
+#Three{
+	height:150px;
+	width:150px;
+	background-color:#ccb5e2;
+	display:inline-block;
+	position:relative;
+	top:750px;
+	left:50%;
+}
+#Thing{
+	height:2048px;
+}
+.navitem{
+	list-style-type:none;
+	display:inline;
+	padding:1.5em;
+}
+#navmenu{
+	height:250px;
+	width:50px;
+	margin:auto;
+}
+.homeLink:hover{
+	color:green;
+}
+.memesLink:visited{
+	color:red;
+}
+.recipesLink:active{
+	color:gray;
+}
+.homeLink{
+	color:purple;
+}
+#randomstuff{
+	float-right:200px;
+}
+#purpleplatapi{
+	float-left:50px;
+}

@@ -1,0 +1,82 @@
+<html> 
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css"/>
+		<style>
+		</style>
+		<title> Books and cupcakes</title> 
+		<script> 
+			function answer() {var radio = document.getElementsByName("same"); 
+var selection = false; 
+var message = "";}for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "Fluxweed" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+			function banner() {var text = confirm("Did You Really Want to Click on My Banner?"); return text;}
+		</script>
+	</head> 
+	<body id="background"> 
+		<a href="https://www.thetheoristgateway.com" onclick="return banner()">
+			<header>
+			A nerdy place for <span class="wrap-text"> nerdy people </span>.
+			</header>
+		</a>
+		<nav>
+			<ul id="navmenu">
+				<li class="navitem"> 
+					<a class="homeLink" href="index.html"> Home </a> </li>
+				<li class="navitem">
+					<a class="memesLink" href="memes.html"> Memes </a> </li>
+				<li class="navitem">
+					<a class="recipesLink" href="recipes.html"> Recipes </a> </li>
+			</ul>
+		</nav>
+		<div id="randomstuff">
+			<img src="https://lh3.googleusercontent.com/-xBhXhuL0leI/W5gbECC_2aI/AAAAAAAAUdI/b-WWrE8BHAEpThU6xrX4D2GuKB-n9-2bwCL0BGAYYCw/h177/6621944661868233209%253Faccount_id%253D1" style="width:300px;height:300px"/>
+		</div>
+		<div id="purple platapi">
+			<img src= "https://lh3.googleusercontent.com/-cmTpjq3RXSc/W5gbE9p-_4I/AAAAAAAAUdI/Fl_3cQbOvBcXOtPc5VVZTKDfQnY_J8RjQCL0BGAYYCw/h509/5969242071298618380%253Faccount_id%253D1" style="width:400px;height:300px"/>
+		</div>
+		<h1> All things nerdy and baking </h1>
+		<p class="blahblahblah"> This is a website for talking theories, book ideas, fan fics, and fun baking recipies. <I> Especially </i> if the recipies are nerdy too. Because nerdiness and baking should <b> always </b> go together, no matter who says otherwise. If you have any ideas for what could be better, <u> please </u> let me know! Here are some things we can talk about here! </p>
+		<ol>
+			<li class="genericname"> Lord of the Rings </li>
+			<li class="genericname"> Harry Potter </li>
+			<li class="genericname"> Almost anything else, just keep it clean, please. </li>
+		</ol>
+		<iframe width="420" height="315"
+			src=" https://m.youtube.com/watch?v=dAebUfMN_K0"
+			frameborder="0" allowfullscreen>
+		</iframe>
+		<div class="wrap-trivia"
+			<h2> Harry Potter trivia time! </h2>
+			<p> Which peice of Polyjuice Potion must be aquired during the full moon? </p>
+		</div>
+		<div class="wrap-list">
+			<form>
+				<div id="response">
+				</div>
+				<input type="radio" name="same" value="Fluxweed">  Fluxweed <br> 
+				<input type="radio" name="same" value="Newt spleen"> Newt spleen <br>
+				<input type="radio" name="same" value="A bit of who you want to turn into"> A Bit of Someone you want to turn into <br>
+				<input type="radio" name="same" value="Knotgrass"> Knotgrass <br>
+				<input type="button" value="Submit" id="buttons" onclick="answer()">
+			</form>
+		</div>	
+		<audio width="75px" height="75px" controls autoplay>
+			<source src=http://soundbible.com/grab.php?id=1165&type=wav>
+		</audio>
+		<hr>
+		<center> Jessica Stimpson </center>
+		<a href= "http://cerey.github.io/fighters-block/#"> This is an awesome place for writing! </a>
+		<footer>
+			Website by Jessica Stimpson
+		</footer>
+	</body> 
+</html>
